@@ -1,20 +1,15 @@
 import requests
 import pprint
+url = 'https://s3.amazonaws.com/data-production-walltime-info/production/'
+url2 = 'dynamic/walltime-info.json?'
 
-# Test API by sending a Get requests
-url = 'https://s3.amazonaws.com/data-production-walltime-info/production/dynamic/walltime-info.json?now=1528962473468.
-679.0000000000873'
-response = requests.get(url)
+response = requests.get(url+url2)
 r = response.json()
-
-#printing JSON to confirm success
-# print(r)
-
-#
 pprint.pprint(r, width=40)
 
-
-#Test user input
+# printing JSON to confirm success
+# print(r)
+# Test user input
 # Test API make sure reponse is True
-#output
-#while with exit code zero reprompt when done
+# output
+# while with exit code zero reprompt when done

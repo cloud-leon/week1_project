@@ -1,10 +1,12 @@
 # week1_project
 
+![github.yaml](https://github.com/cloud-leon/week1_project/actions/workflows/test.yaml/badge.svg)
+![github.yaml](https://github.com/cloud-leon/week1_project/actions/workflows/github_actions.yaml/badge.svg)
 
 
-# JSON Ticker Scraper using Walltime API
+# JSON Market Scraper using Walltime API
 
-*This software retrieves a*
+*This software retrieves trading pair prices in regards to crypto*
 
 Donald Knuth:
 > If you optimize everything, you will always be unhappy
@@ -12,25 +14,14 @@ Donald Knuth:
 
 
 ## Installation
-* Runs in Python 2.7>
-* Run command sudo pip3 install spotipy
-* To install
-  * Sudo install APIScraper 
-
+* No installtion need as Walltime is a web based API
 
 ## Usage
-\* python APIScraper \*
+\* python API ticker Scraper\*
 
-
-## Contributing
-
-[Click here for Contributors](contributions.md)
-
-
-## History
+## Historysymphonys
 
 [GitHub History](http://github.com)
-
 
 
 ## Contact Information
@@ -38,9 +29,3 @@ Donald Knuth:
 Name         | Email
 ------------ | -------------------------
 Levi Makwei       | Levi.d.makwei@gmail.com
-
-
-## License
-
-![badge0](https://img.shields.io/static/v1?label=<License>&message=GNU>&color=<BLUE>) 
-![workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
